@@ -33,6 +33,8 @@ declare module 'react-native-zendesk-v2' {
     withChat?: boolean
     // to enable/disable ticket creation in help center
     disableTicketCreation?: boolean
+    // to disble prechat form
+    disablePreChatForm?: boolean
   }
 
   interface InitOptions {
