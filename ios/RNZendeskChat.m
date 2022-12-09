@@ -170,6 +170,7 @@ RCT_EXPORT_METHOD(setNotificationToken:(NSData *)deviceToken) {
     ZDKChatConfiguration *chatConfiguration = [[ZDKChatConfiguration alloc] init];
     chatConfiguration.isPreChatFormEnabled = NO;
     chatConfiguration.isAgentAvailabilityEnabled = NO;
+    chatConfiguration.isOfflineFormEnabled = NO;
 
     UIViewController *chatController =[ZDKMessaging.instance buildUIWithEngines:engines
                                                                         configs:@[messagingConfiguration, chatConfiguration]
