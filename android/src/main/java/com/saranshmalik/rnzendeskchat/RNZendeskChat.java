@@ -169,7 +169,7 @@ public class RNZendeskChat extends ReactContextBaseJavaModule {
         if (options.hasKey("chatOnly")) {
            MessagingActivity.builder()
                     .withBotLabelString(botName)
-                    .withEngines(ChatEngine.engine(), SupportEngine.engine())
+                    .withEngines(ChatEngine.engine())
                     .show(activity, chatConfiguration);
         } else {
             MessagingActivity.builder()
