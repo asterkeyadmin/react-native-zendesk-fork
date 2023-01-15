@@ -168,7 +168,7 @@ RCT_EXPORT_METHOD(setNotificationToken:(NSData *)deviceToken) {
       ];
     }
     ZDKChatConfiguration *chatConfiguration = [[ZDKChatConfiguration alloc] init];
-    chatConfiguration.chatMenuActions = @[0];
+    chatConfiguration.chatMenuActions = @[@0];
     chatConfiguration.isPreChatFormEnabled = NO;
     chatConfiguration.isAgentAvailabilityEnabled = NO;
     chatConfiguration.isOfflineFormEnabled = NO;
