@@ -163,7 +163,8 @@ public class RNZendeskChat extends ReactContextBaseJavaModule {
                 .withPreChatFormEnabled(false)
                 .withAgentAvailabilityEnabled(false)
                 .withOfflineFormEnabled(false)
-                .withChatMenuActions(0)
+                .withTranscriptEnabled(false)
+                .withChatMenuActions()
                 .build();
 
         Activity activity = getCurrentActivity();
